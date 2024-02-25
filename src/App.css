@@ -1,0 +1,126 @@
+/* Styles for the main container */
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #FDF7E4;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styles for the dropdown container */
+
+.selectOption {
+  position: relative;
+  width: 350px;
+  height: auto;
+  display: flex;
+}
+
+/* Styles for the input field */
+
+input{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border-width: 3px;
+  border-style:solid ;
+  border-color: #BBAB8C;
+  border-radius: 10px;
+  font-size: 20px;
+  background:white;
+  color: #514630;
+  cursor: pointer;
+}
+
+/* Styles for the dropdown icon */
+
+.icon{
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  font-size: 25px;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  transition: transform .2s ease;
+  pointer-events: none;
+}
+
+/* Active styles for the dropdown icon */
+
+.icon.active{
+  transform: translateY(-50%) rotate(0deg);
+}
+
+/* Styles for the dropdown options container */
+
+.options{
+  position: absolute;
+  width: 100%;
+  max-height: 220px;
+  background: white;
+  border-width: 3px;
+  border-style:solid ;
+  border-color: #BBAB8C;
+  border-radius: 10px;
+  top: 100%;
+  transform: translateY(0);
+  overflow: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+  color: #615438;
+}
+
+/* Active styles for the dropdown options container */
+
+.options.active{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(5%);
+}
+
+/* Styles for the list items in the dropdown */
+
+li{
+  list-style: none;
+  font-size: 17px;
+  text-transform: capitalize;
+  padding: 17px 20px;
+  cursor: pointer;
+}
+
+/* Hover styles for list items */
+
+li:hover{
+  background: #BBAB8C;
+  color: white;
+}
+
+/* Scrollbar styles */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #BBAB8C; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FDF7E4; 
+  border-radius: 20px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
