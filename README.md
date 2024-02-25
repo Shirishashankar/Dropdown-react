@@ -80,7 +80,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Technologies Used
 
 .HTML5
+
 .CSS3 
+
 .Javascript
+
 .React
 
