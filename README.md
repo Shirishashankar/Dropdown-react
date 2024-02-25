@@ -1,3 +1,7 @@
+# Drop Down  Select 
+
+Drop down select menu created using React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +72,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Image of Dropdown
+
+<img width="1440" alt="Screenshot 2024-02-25 at 1 13 06 PM" src="https://github.com/Shirishashankar/Dropdown-react/assets/144225998/864391aa-98bc-4cdd-8ee2-e9ef62196b8d">
+
+## Technologies Used
+
+.HTML5
+.CSS3 
+.Javascript
+.React
+
